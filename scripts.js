@@ -60,10 +60,10 @@ var path = d3.geoPath().projection(projection);
 svg.call(tip);
 svg.call(bubbleTip);
 queue()
-    .defer(d3.json, "world_countries.json")
-    .defer(d3.csv, "fin_inclusion.csv")
-    .defer(d3.csv, "fin_inc_applicants.csv")
-    .defer(d3.csv, "tech_access_non_applicants.csv")
+    .defer(d3.json, "data/world_countries.json")
+    .defer(d3.csv, "data/fin_inclusion.csv")
+    .defer(d3.csv, "data/fin_inc_applicants.csv")
+    .defer(d3.csv, "data/tech_access_non_applicants.csv")
     .await(ready);
     console.log('hello')    
 function ready(error, data, tech_access, tech_access_applicants, tech_access_non_applicants) {
