@@ -1,6 +1,6 @@
 # Prediciting the automatabiltiy of occupational tasks
 
-Can we predict the automatability of occupational tasks in the same way that we predict movie ratings? 
+Can we predict the automatability of occupational tasks similar to how we predict movie ratings? 
 
 ## What
 To model the relationship between the text of an occupational task description in ONET and its  suitability for machine learning (SML) to predict the SML for an unseen task (a task not found in ONET). 
