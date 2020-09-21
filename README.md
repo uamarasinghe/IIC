@@ -1,4 +1,4 @@
-# predicting_automatabiltiy_of_work_tasks
+# Prediciting the automatabiltiy of occupational tasks
 
 Can we predict the automatability of occupational tasks in the same way that we predict movie ratings? 
 
